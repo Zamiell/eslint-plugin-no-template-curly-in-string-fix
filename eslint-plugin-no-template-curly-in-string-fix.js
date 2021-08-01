@@ -32,7 +32,9 @@ module.exports = {
                                 node,
                                 messageId: "unexpectedTemplateExpression",
                                 fix(fixer) {
-                                    return fixer.insertTextAfter(node, "`" + node.value + "`").remove(node);
+                                    console.log("11111 - ", node);
+                                    console.log("22222 - ", node.value);
+                                    return fixer.replaceText(node, "`" + node.value + "`");
                                 },
                             });
                         }

@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-template-curly-in-string-fix",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A replacement for the ESLint no-template-curly-in-string-fix rule that allows automatic fixing.",
   "keywords": [
     "eslint",
