@@ -15,7 +15,7 @@ This is a replacement for the ESLint [no-template-curly-in-string rule](https://
 
 ## Why should I use this?
 
-The ESLint [no-template-curly-in-string rule](https://eslint.org/docs/rules/no-template-curly-in-string) will throw an error if you use `"${foo}"`, complaining that you should convert it to ``${foo}``. This is a fantastic rule, as the use of the former is almost always a bug.
+The ESLint [no-template-curly-in-string rule](https://eslint.org/docs/rules/no-template-curly-in-string) will throw an error if you use `"${foo}"`, complaining that you should convert it to ```${foo}```. This is a fantastic rule, as the use of the former is almost always a bug.
 
 However, when using the `--fix` flag, ESLint will not automatically fix this for you, unlike most other rules. This is probably because ESLint does not want to break code where the programmer did this intentionally.
 
